@@ -48,24 +48,24 @@ AJACSこまち@秋田県産業技術センター 高度技術研究館 2階ミ�
 
 ----
 
-#### 受講前アンケートにご協力いただき、ありがとうございます (回答数 22)
+#### 受講前アンケートにご協力いただき、ありがとうございます (回答数 24)
 
 |統合TVを知っていますか?|人数|割合|
 |:--|--:|:--:|
-|知らない|12 名|55 %|
+|知らない|14 名|58 %|
 |聞いたことがある|0 名|0 %|
-|知っている|3 名|14 %|
-|使ったことがある|2 名|9 %|
+|知っている|3 名|13 %|
+|使ったことがある|2 名|8 %|
 |使っている|1 名|4 %|
-|回答なし|4 名|18 %|
+|回答なし|4 名|17 %|
 ---
 |自分で実験して得た、数十〜数千の遺伝子からなる<br>「遺伝子リスト」(例: 発現差のあった遺伝子など) を持っていますか?|人数|割合|
 |:--|--:|:--:|
-|これから実験をする・したい|2 名|9 %|
-|公共データを活用する・したい|6 名|27 %|
-|既に持っている|4 名|18 %|
-|大規模発現解析の予定はない|4 名|18 %|
-|回答なし|6 名|27 %|
+|これから実験をする・したい|2 名|8 %|
+|公共データを活用する・したい|7 名|29 %|
+|既に持っている|4 名|17 %|
+|大規模発現解析の予定はない|5 名|21 %|
+|回答なし|6 名|25 %|
 ---
 
 ## 研究現場で頻繁に使われるデータベースやツールを知る
@@ -292,14 +292,33 @@ AJACSこまち@秋田県産業技術センター 高度技術研究館 2階ミ�
      - 「AH患者＞健常者_遺伝子リスト」[GEO2R_AH.txt](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/GEO2R_AH.txt)
      - (この遺伝子リストの作り方は、[AJACS御茶ノ水の回](http://doi.org/10.7875/ajacs.2015.007) で解説しています。)
 - DAVID 以外のツールを使ってみる
-  - DAVIDでは主にGeneOntologyを見ていましたが、医学・薬学分野に特化した情報を解析対象にした[GeneSetDB](http://genesetdb.auckland.ac.nz/haeremai.html) を使ってみるという手もあります。
-  - 統合TV あります → [GeneSetDBで遺伝子解析とエンリッチメント解析を行う](http://doi.org/10.7875/togotv.2016.002)
-    - [2:50~ エンリッチメント解析を行う](https://www.youtube.com/watch?v=qqF19PaURsA&feature=youtu.be&t=2m50s)   
-  - それ以外にもさまざまなエンリッチメント解析ツールが出てきています｡
-    - [GeneTrail2](https://genetrail2.bioinf.uni-sb.de/)
-      - 統合TV あります → [GeneTrail2を使って、エンリッチメント解析を行う](http://togotv.dbcls.jp/ja/20160616.html)
-    - [Metascape](http://metascape.org/gp/index.html#/main/step1)
-      - 統合TV 作成中
+  - [GeneTrail2](https://genetrail2.bioinf.uni-sb.de/)
+    - 2016年1月公開｡ ザールラント大(独)が開発･運用｡ 原著論文 [PMID: 26787660](http://www.ncbi.nlm.nih.gov/pubmed/26787660)
+    - トランスクリプトームのほか､プロテオーム､ miRNA､SNP にも対応
+    - GSE 番号 の入力だけで､GEOから直接データ取得が可能
+    - IDリストのほか発現量込みリスト､タイムコースデータなども使用可能
+    - 主要なモデル生物種に対応
+    - 実験系に適した統計解析の選択肢が豊富
+    - 同じ生物種間であれば､別の解析結果同士を比較することも可能
+    - 統合TV あります → [GeneTrail2を使って、エンリッチメント解析を行う](http://togotv.dbcls.jp/ja/20160616.html)
+      - 解析結果セットはダウンロード可能だがアップロードして再表示はできない
+      - データセットによってエラーが出て解析できない…(バグ?)
+  - [Metascape](http://metascape.org/gp/index.html#/main/step1)
+    - 2015年10月スタート｡ 原著論文 [PMID: 26651948](http://www.ncbi.nlm.nih.gov/pubmed/26651948)
+    - [｢なぜ､DAVIDはもはや使うべきではないのか｣ 提言](http://metascape.blogspot.jp/2016/02/why-david-should-no-longer-be-used.html) → metascape 使おう
+    - 対応ID: Entrez Gene ID, RefSeq, Gene Symbol, Ensembl, UCSC, UniProt.
+    - 生物種は､ヒト､マウス､ラットのみ
+    - IDリストのほかタイムコースなどの複数リストデータも使用可能
+    - 複数リスト間のアノテーションについて差分表示が可能
+    - GOのエンリッチメント解析で階層的クラスタリングもできる
+    - 統合TV 作成中
+      - まだシステムが不安定(?)で大量クエリ投げると結果が帰ってこない場合もある
+      - Chromeだとjavascript周りでエラーが出て使えない(?)ことも
+  - [GeneSetDB](http://genesetdb.auckland.ac.nz/haeremai.html)
+    - 九州大学 荒木さんが開発｡ オークランド大学バイオインフォマティクス研究所が運用｡ 原著論文 [PMID: 23650583](http://www.ncbi.nlm.nih.gov/pubmed/23650583)
+    - 医学・薬学分野に特化したデータベースを解析対象にすることができる
+    - 統合TV あります → [GeneSetDBで遺伝子解析とエンリッチメント解析を行う](http://doi.org/10.7875/togotv.2016.002)
+      - [2:50~ エンリッチメント解析を行う](https://www.youtube.com/watch?v=qqF19PaURsA&feature=youtu.be&t=2m50s)   
 - 一応ひとつの答え
   - このデータを使った論文があります。
     - [Transcriptome analysis identifies TNF superfamily receptors as potential therapeutic targets in alcoholic hepatitis.](http://www.ncbi.nlm.nih.gov/pubmed/22637703)
