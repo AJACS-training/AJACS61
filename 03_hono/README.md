@@ -221,14 +221,19 @@ AJACSこまち@秋田県産業技術センター 高度技術研究館 2階ミ�
 ----
 
 ## 数十～数千の遺伝子群の生物学的解釈
+
+- マイクロアレイやNGS実験を行うと大量の発現変動遺伝子 (Differentially Expressed Genes: DEGs)が得られます｡
+- 一般的な遺伝子発現解析の第一歩は､実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることです。
+  - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
+- 今回は、その方法の一つとして、[Gene Ontology (GO)](http://array.cell-innovator.com/?p=1085) の用語を使って､マイクロアレイ実験で得られたDEGsのもつ機能に、どのような特徴があるのか(転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか?､ Wntパスウェイに関する遺伝子が多いのか?, など)を解析することで、生物学的解釈をしてみましょう。  
+
 ### [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
-- マイクロアレイデータの生物学的な解釈
-- マイクロアレイ実験の一般的な目的は、実験条件によって得られた数十～数千の遺伝子群の発現が生物学的にどういう意味を持つかを考えることです。
-- 2010年以来データ更新が止まっていましたが､最近､アップデートされました｡ [DAVID 6.8 (current beta release) May. 2016](https://david.ncifcrf.gov/content.jsp?file=release.html)
-
-- ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
-
-- 今回は、その方法の一つとして、マイクロアレイの結果に[Gene Ontology](http://array.cell-innovator.com/?p=1085) の用語を付与することで、生物学的な解釈を行います。
+- アメリカ国立アレルギー・感染症研究所が開発･運用
+- 原著論文 [PMID: 19131956](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
+- 遺伝子リストのコピペで簡単にエンリッチメント解析 ( GO､KEGG など )
+- 対応生物種･遺伝子ID が 豊富｡ ID変換ツールもある
+- IDリストしか投げられない (発現量込みやタイムコースデータは不可)
+- 2010年以来データ更新が止まっていたが､最近､アップデートされた｡ [DAVID 6.8 (current beta release) May. 2016](https://david.ncifcrf.gov/content.jsp?file=release.html)  
 
 #### マイクロアレイデータの準備
 - サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。  
