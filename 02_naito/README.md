@@ -78,7 +78,8 @@
 
   - GGGenomeトップページ – http://GGGenome.dbcls.jp/
   - 統合TVによる解説動画
-    - 高速配列検索 GGGenome《ゲゲゲノム》の使い方
+    - [高速配列検索 GGGenome《ゲゲゲノム》の使い方](http://togotv.dbcls.jp/ja/20131025.html)
+    - [GGGenome《ゲゲゲノム》で転写因子結合サイトを検索してゲノムブラウザに表示する](http://togotv.dbcls.jp/ja/20150721.html)
   - ミスマッチやギャップを含む検索 – http://GGGenome.dbcls.jp/hg19/2/TTCACTGACAACATTGAGTA
   - 表計算ソフトで塩基配列検索
     - [Googleスプレッドシート](https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing#gid=0) を参照
@@ -86,7 +87,6 @@
     1. UCSCゲノムブラウザ (http://genome.ucsc.edu/cgi-bin/hgGateway)
     2. 「add custom tracks」ボタン
     3. 「http://GGGenome.dbcls.jp/hg19/(検索したい配列).bed」と入力
-
 
 #### siRNA設計ウェブサーバsiDirect ####
 
