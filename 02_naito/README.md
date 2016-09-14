@@ -9,13 +9,13 @@
 
 講習で紹介するデータベースやウェブツールへのリンクです。
 
-#### NCBI Entrez ####
+#### NCBI ####
 
 ![スクリーンショット]
 (http://g86.dbcls.jp/~meso/meme/wp-content/uploads/2016/08/ncbi_600.png
 "スクリーンショット")
 
-  - NCBI Entrez - http://www.ncbi.nlm.nih.gov/
+  - NCBI - http://www.ncbi.nlm.nih.gov/
 
 #### NCBI BLAST ####
 
