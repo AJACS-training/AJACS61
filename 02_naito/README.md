@@ -11,24 +11,21 @@
 
 #### NCBI ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/ncbi_600.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/ncbi_600.png
 "スクリーンショット")
 
   - NCBI - http://www.ncbi.nlm.nih.gov/
 
 #### NCBI BLAST ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/ncbiblast_600.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/ncbiblast_600.png
 "スクリーンショット")
 
   - NCBI BLAST - http://www.ncbi.nlm.nih.gov/BLAST
 
 #### UCSC BLAT ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/BLAT.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/BLAT.png
 "スクリーンショット")
 
   - UCSC BLAT - https://genome.ucsc.edu/cgi-bin/hgBlat
@@ -37,8 +34,7 @@
 
 #### UCSCゲノムブラウザ ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/867440539.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/867440539.png
 "スクリーンショット")
 
   - UCSCゲノムブラウザ – https://genome.ucsc.edu/cgi-bin/hgTracks
@@ -53,8 +49,7 @@
 
 #### 統合遺伝子検索GGRNA ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/GGRNA.v2.jpg
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/GGRNA.v2.jpg
 "スクリーンショット")
 
   - GGRNAトップページ – http://GGRNA.dbcls.jp/
@@ -72,8 +67,7 @@
 
 #### 高速配列検索GGGenome ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/GGGenome_screen.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/GGGenome_screen.png
 "スクリーンショット")
 
   - GGGenomeトップページ – http://GGGenome.dbcls.jp/
@@ -90,8 +84,7 @@
 
 #### siRNA設計ウェブサーバsiDirect ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/siDirect_top.jpg
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/siDirect_top.jpg
 "スクリーンショット")
 
   - siDirectトップページ - http://siDirect2.RNAi.jp/
@@ -101,8 +94,7 @@
 
 #### CRISPR設計ウェブサーバCRISPRdirect ####
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/CRISPRscreen.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/CRISPRscreen.png
 "スクリーンショット")
 
   - CRISPRdirect (http://crispr.dbcls.jp/)
@@ -115,12 +107,10 @@
   - 統合TVによる解説動画
     - [difff《ﾃﾞｭﾌﾌ》を使って文章の変更箇所を調べる](http://togotv.dbcls.jp/ja/20130828.html)
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/difff6.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/difff6.png
 "スクリーンショット")
 
   - 『[今日から使える！ データベース・ウェブツール 達人になるための実践ガイド100](https://www.yodosha.co.jp/jikkenigaku/book/9784758103435/)』実験医学増刊 2014年12月発行
 
-![スクリーンショット]
-(https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/B2uOQ3eCIAAFX9A.png
+![スクリーンショット](https://raw.githubusercontent.com/AJACS-training/AJACS61/master/02_naito/images/B2uOQ3eCIAAFX9A.png
 "スクリーンショット")
